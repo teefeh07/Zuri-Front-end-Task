@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./Background-Images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  font-family: Poppins, Verdana, Arial;
+}
+.container {
+  background-color: hsl(0, 100%, 74%, 0.6);
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.subscription {
+  background-color: rgb(239, 10, 239);
+  text-align: center;
+  padding: 12px 60px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+input {
+  width: 85%;
+  padding: 10px 15px;
+  margin: 0px auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 14px;
+}
+.first-name {
+  margin-top: 25px;
+}
+
+input[type="submit"] {
+  background-color: hsl(154, 59%, 51%);
+  margin-bottom: 0px;
+
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.condition {
+  color: gray;
+
+  padding: 30px;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.info {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.about {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+span {
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(./Background-Images/bg-intro-mobile.png);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .details {
+    justify-content: center;
+  }
+  .subscription {
+    text-align: center;
+    padding: 15px 25px;
+    margin: 50px 20px;
+    margin-bottom: 5px;
+
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 25px;
+  }
+  .about {
+    margin: 35px 15px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    margin: 20px 15px 15px 15px;
+  }
+  .condition {
+    padding: 30px;
+    margin-bottom: 25px;
+    font-size: 10px;
+  }
+}
