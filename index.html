@@ -26,13 +26,17 @@
             <input
               type="text"
               class="first-name"
-              placeholder="First Name"
+              placeholder="First Name" minlength="3" maxlength="15"
               required
             />
-            <input type="text" placeholder="Last Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
-            <input type="submit" value="CLAIM YOUR FREE TRIAL" />
+           
+            <input type="text" placeholder="Last Name" minlength="3" maxlength="20" required />
+            
+            <input type="email" placeholder="Email" minlength="12" maxlength="25" required />
+            
+            <input type="password" placeholder="Password" minlength="8" maxlength="15" required />
+           
+            <input type="button" value="CLAIM YOUR FREE TRIAL" />
             <p class="condition">
               By clicking the button, you are agreeing to our
               <a href="#">Terms and Services</a>
