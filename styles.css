@@ -130,13 +130,12 @@ span {
   }
   
 }
-@media (max-width: 700px) {
-  body {
-    background-image: url(./Background-Images/bg-intro-mobile.png);
-  }
+@media (max-width: 750px) {
+  
   .container {
     display: flex;
     flex-direction: column;
+     background-image: url(./Background-Images/bg-intro-mobile.png);
     height: 1000px;
   }
 
