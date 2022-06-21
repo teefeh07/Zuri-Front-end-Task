@@ -7,14 +7,16 @@
   padding: 0;
 }
 body {
-  background-image: url(./Background-Images/bg-intro-desktop.png);
-  background-repeat: no-repeat;
+ 
   background-color: hsl(0, 100%, 74%);
-  background-size: contain;
+ 
   color: white;
   font-family: Poppins, Verdana, Arial;
 }
 .container {
+   background-image: url(./Background-Images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+   background-size: contain;
   height: 600px;
   display: flex;
   justify-content: center;
